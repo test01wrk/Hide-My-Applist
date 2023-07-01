@@ -14,7 +14,7 @@ plugins {
 }
 
 if (officialBuild) {
-    plugins.apply("com.google.gms.google-services")
+//    plugins.apply("com.google.gms.google-services")
 }
 
 android {
@@ -111,8 +111,8 @@ dependencies {
     implementation("com.github.liujingxing.rxhttp:converter-serialization:$rxhttpVersion")
     implementation("com.github.topjohnwu.libsu:core:5.0.3")
     implementation("com.google.android.material:material:1.7.0")
-    implementation("com.google.android.gms:play-services-ads:21.4.0")
-    implementation("com.google.firebase:firebase-analytics-ktx:21.2.0")
+//    implementation("com.google.android.gms:play-services-ads:21.4.0")
+//    implementation("com.google.firebase:firebase-analytics-ktx:21.2.0")
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation("dev.rikka.hidden:compat:3.4.3")
     implementation("dev.rikka.rikkax.material:material:2.5.1")
